@@ -1,97 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
 * {
-    font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
 }
 
-
 body {
-    background-image: url(./images/pattern-background-desktop.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: hsl(225, 100%, 98%);
-    text-align: center;
-    display: flex;
-    top: 50%;
-    left: 50%;
-    justify-content: center;
-    
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(225, 100%, 98%);
+  text-align: center;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  justify-content: center;
 }
 
 .main__img {
-    max-width: 450px;
-    border-radius: 10px 10px 0 0;
+  max-width: 450px;
+  border-radius: 10px 10px 0 0;
 }
 
 .information {
-    padding: 30px;
-
+  padding: 10px;
 }
 
 p {
-    font-size: 18px;
+  font-size: 20px;
 }
-
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: aliceblue;
-    width: 450px;
-    margin: 0;
-    padding-bottom: 30px ;
-    text-align: center;
-    border-radius: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+  background-color: aliceblue;
+  width: 450px;
+  margin: 0;
+  padding-bottom: 30px;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
-
-
 h2 {
-font-size: 30px;
+  font-size: 30px;
 }
 
 .page__links {
-    position: fixed;
-    text-align: center;
-    bottom: 0;
-    padding: 10px;
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  padding: 15px;
 }
 
 .change {
-    display: block;
+  display: block;
 }
 
 button {
-    display: inline-block;
-    font-size: 18px;
-    text-transform: uppercase;
-    padding: 10px;
-    margin: 25px;
-    border-radius: 30px;
-    text-align: center;
-    justify-content: center;
-    border-style: none;
-    width: 70%;
-    top: 50%;
-    left: 50%;
-    cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 30px;
+  text-align: center;
+  justify-content: center;
+  border-style: none;
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
 }
 
 .payment_button {
-    background-color: #382AE1;
-    color: white;
+  background-color: #382ae1;
+  color: white;
 }
 
 .cost,
 .information {
-    color:rgb(84, 84, 85);
+  color: #545455;
 }
-
-
-
-
